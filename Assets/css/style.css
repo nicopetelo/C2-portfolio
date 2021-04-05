@@ -89,7 +89,6 @@
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -216,6 +215,9 @@
   .flex-row {
     display: flex;
   }
+
+  
+
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
@@ -244,11 +246,9 @@
       text-align: center;
       width: 100%;
     }
-
-    img {
-      flex: 0 32%;
+    .flex-column {
+      width: 100%;
     }
-  
   }
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -257,7 +257,7 @@
       padding: 30px 15px;
     }
     .screenshots img {
-      flex: 0 32%;
+      flex-wrap: wrap;
       margin-right: 0;
       margin-top: 15px;
       margin-bottom: 15px;
