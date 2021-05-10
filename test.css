@@ -1,0 +1,21 @@
+
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.screenshots{
+    height: 200px;
+    width: 200px;
+}
+
+.flex-row{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
